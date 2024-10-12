@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Beauty</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="base-container w-container">
+            <div class="header-top-wrapper">
+                <div class="header-logo-wrapper">
+                    <a href="index.html" class="header-brand w-nav-brand">
+                        <img src="assets/images/logo.jpeg" loading="lazy" width="Auto" height="64" alt="logo"
+                            class="logo-bigger">
+                    </a>
+                </div>
+
+                <div class="header-social-icons-wrapper">
+                    <a href="https://www.instagram.com/girls__beauty__77/" target="_blank" class="header-social-icon">
+                        <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M46 0H14C10.2875 0.00499967 6.73029 1.48 4.10502 4.10502C1.48 6.73003 0.00505599 10.2875 0 14V46C0.00499967 49.7125 1.48 53.2697 4.10502 55.895C6.73003 58.52 10.2875 59.9949 14 60H46C49.7125 59.995 53.2697 58.52 55.895 55.895C58.52 53.27 59.9949 49.7125 60 46V14C59.995 10.2875 58.52 6.73029 55.895 4.10502C53.27 1.48 49.7125 0.00505599 46 0ZM55.9999 45.9999C55.9974 48.6499 54.9425 51.1924 53.0675 53.0674C51.1925 54.9424 48.65 55.9974 46 55.9999H14C11.3501 55.9974 8.80753 54.9424 6.93253 53.0674C5.05753 51.1924 4.00255 48.6499 4.00006 45.9999V14C4.00256 11.35 5.05753 8.80747 6.93253 6.93247C8.80753 5.05746 11.35 4.00249 14 3.99999H46C48.6499 4.00249 51.1925 5.05746 53.0675 6.93247C54.9425 8.80747 55.9975 11.3499 55.9999 14V45.9999ZM30 16C26.2875 16 22.7251 17.475 20.0999 20.0999C17.4746 22.7249 15.9999 26.2874 15.9999 30.0001C15.9999 33.7127 17.4749 37.2749 20.0999 39.9002C22.7248 42.5255 26.2874 44.0002 30 44.0002C33.7126 44.0002 37.2749 42.5252 39.9001 39.9002C42.5254 37.2753 44.0001 33.7127 44.0001 30.0001C43.9951 26.2876 42.5201 22.7303 39.8951 20.105C37.2701 17.48 33.7125 16.005 30 16ZM30 39.9999C27.3475 39.9999 24.805 38.9474 22.9299 37.0699C21.0524 35.1949 20 32.6525 20 29.9999C20 27.3473 21.0524 24.8049 22.9299 22.9298C24.8049 21.0523 27.3474 19.9998 30 19.9998C32.6526 19.9998 35.195 21.0523 37.0701 22.9298C38.9476 24.8048 40 27.3473 40 29.9999C39.9975 32.6499 38.9426 35.1924 37.0676 37.0674C35.1926 38.9424 32.65 39.9974 30 39.9999ZM50.4998 12.9997C50.4998 14.4146 49.6473 15.6921 48.3398 16.2322C47.0323 16.7747 45.5248 16.4747 44.5248 15.4747C43.5248 14.4747 43.2249 12.9671 43.7673 11.6597C44.3073 10.3522 45.5848 9.49969 46.9998 9.49969C48.9323 9.49969 50.4998 11.0671 50.4998 12.9997Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                    <a href="https://www.tiktok.com/@girls__beauty__77" target="_blank" class="header-social-icon">
+                        <svg width="49" height="62" viewBox="0 0 49 62" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M47.379 7.75422C47.0413 7.52908 46.7036 7.52908 46.3659 7.64165C43.5516 8.87993 40.6248 7.97936 38.9362 5.72796C38.1482 4.71482 37.6979 3.36398 37.6979 2.1257C37.6979 1.78799 37.5854 1.56285 37.3602 1.33771C37.1351 1.11257 36.9099 1 36.5722 1H25.0901C24.4146 1 23.9644 1.45028 23.9644 2.1257V42.0882C23.9644 42.2008 23.9644 42.2007 23.9644 42.3133C23.7392 44.3396 22.1632 45.803 20.137 45.803C17.9981 45.803 16.197 44.0019 16.197 41.863C16.197 39.8368 17.6604 38.2608 19.6867 38.0356C20.2495 37.9231 20.6998 37.4728 20.6998 36.9099V23.8518C20.6998 23.1764 20.2495 22.7261 19.5741 22.7261C19.5741 22.7261 19.4615 22.7261 19.349 22.7261C8.99249 23.1764 1 31.5066 1 41.863C1 52.4447 9.55535 61 20.137 61C30.0432 61 38.3734 53.3452 39.1613 43.5516C39.2739 43.439 39.2739 43.2139 39.2739 43.1013V21.3752C41.7505 21.9381 44.3396 22.1632 47.0413 21.7129C47.6041 21.6004 47.9418 21.1501 47.9418 20.5872V8.65478C47.9418 8.31707 47.7167 7.97936 47.379 7.75422ZM45.6904 19.6867C43.1013 19.9118 40.7373 19.6867 38.3734 18.8987C38.0356 18.7861 37.6979 18.8987 37.3602 19.0113C37.0225 19.2364 36.9099 19.5741 36.9099 19.9118V42.651C36.9099 42.7636 36.9099 42.8762 36.7974 42.9887C36.2345 51.7692 28.8049 58.7486 20.0244 58.7486C10.6811 58.7486 3.13884 51.2064 3.13884 41.863C3.13884 33.0826 9.66792 25.878 18.3358 25.0901V36.0094C15.7467 36.7974 13.833 39.1614 13.833 41.863C13.833 45.2401 16.6473 48.0544 20.0244 48.0544C23.0638 48.0544 25.6529 45.803 26.1032 42.8762C26.2158 42.7636 26.2158 42.5385 26.2158 42.4259V3.25141H35.5591C35.7842 4.71482 36.3471 5.9531 37.1351 7.0788C39.0488 9.66792 42.4259 11.0188 45.6904 10.2308V19.6867Z"
+                                fill="black" stroke="black" />
+                        </svg>
+                    </a>
+                    <a href="tel:+99365577186" class="header-social-icon">
+                        <svg width="38" height="60" viewBox="0 0 38 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M37.8361 7.5293H35.0781V52.4638H37.8361V7.5293Z" fill="black" />
+                            <path d="M31.7063 57.2285H6.12598V59.9865H31.7063V57.2285Z" fill="black" />
+                            <path
+                                d="M31.6789 59.9931L31.541 57.2351C34.1956 57.1041 35.0919 55.6561 35.0919 51.5054H37.8499C37.8499 53.7393 37.8499 59.6897 31.6789 59.9931Z"
+                                fill="black" />
+                            <path
+                                d="M6.22276 60.0002C4.62312 60.0002 3.22344 59.4762 2.16162 58.4695C0.761941 57.1457 0.0517578 55.0979 0.0517578 52.3882H2.80975C2.80975 54.2843 3.24413 55.6909 4.05774 56.47C4.80239 57.1733 5.78837 57.2767 6.48476 57.2353L6.63645 59.9864C6.49166 59.9933 6.35376 60.0002 6.22276 60.0002Z"
+                                fill="black" />
+                            <path d="M2.82342 5.08838H0.0654297V52.4637H2.82342V5.08838Z" fill="black" />
+                            <path d="M31.7756 0.00683594H6.19531V2.76482H31.7756V0.00683594Z" fill="black" />
+                            <path d="M35.9135 46.8721H1.41797V49.6301H35.9135V46.8721Z" fill="black" />
+                            <path d="M35.9135 8.53564H1.41797V11.2936H35.9135V8.53564Z" fill="black" />
+                            <path
+                                d="M0.0724658 7.65341C-0.182648 4.84716 0.23105 2.95105 1.3894 1.68237C2.7684 0.172375 4.85068 0 6.29173 0V2.75799C4.84378 2.75799 3.90607 3.0131 3.42342 3.54401C2.84424 4.17835 2.63739 5.4746 2.81666 7.4052L0.0724658 7.65341Z"
+                                fill="black" />
+                            <path
+                                d="M37.8359 7.73609L35.078 7.64646C35.1469 5.57797 34.8504 4.18519 34.1885 3.50258C33.6783 2.97857 32.8785 2.77172 31.334 2.76482V0.00683594C32.975 0.00683594 34.8297 0.199895 36.1674 1.58578C37.3947 2.84067 37.9325 4.854 37.8359 7.73609Z"
+                                fill="black" />
+                            <path
+                                d="M21.4337 4.26074C19.9237 4.26764 18.4137 4.26764 16.9037 4.27453C16.1797 4.27453 15.4902 4.90887 15.5247 5.65353C15.5592 6.39818 16.1314 7.03252 16.9037 7.03252C18.4137 7.02562 19.9237 7.02562 21.4337 7.01873C22.1576 7.01873 22.8471 6.38439 22.8127 5.63974C22.7782 4.89508 22.2059 4.26074 21.4337 4.26074Z"
+                                fill="black" />
+                            <path
+                                d="M18.9848 54.8976C19.8911 54.8976 20.6258 54.2431 20.6258 53.4359C20.6258 52.6286 19.8911 51.9741 18.9848 51.9741C18.0785 51.9741 17.3438 52.6286 17.3438 53.4359C17.3438 54.2431 18.0785 54.8976 18.9848 54.8976Z"
+                                fill="black" />
+                            <path
+                                d="M18.9848 56.2767C17.3232 56.2767 15.9648 55.0011 15.9648 53.4359C15.9648 51.8708 17.3163 50.5952 18.9848 50.5952C20.6534 50.5952 21.9979 51.8708 21.9979 53.4359C21.9979 55.0011 20.6465 56.2767 18.9848 56.2767ZM18.7297 53.4497C18.7504 53.4497 18.84 53.5187 18.9917 53.5187C19.1227 53.5187 19.2055 53.4635 19.24 53.4359C19.2055 53.4015 19.1227 53.3532 18.9917 53.3532C18.8263 53.3463 18.7366 53.429 18.7297 53.4497C18.7228 53.4566 18.7228 53.4497 18.7297 53.4497Z"
+                                fill="black" />
+                        </svg>
+                    </a>
+                </div>
+
+                <a href="tel:+99365577186" class="phone">
+                    <span>
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.77226 30.2294C14.1871 34.6463 19.3245 37.8469 24.2331 39.2426C26.0086 39.7481 27.6846 39.997 29.2312 39.997C32.1711 39.997 34.6371 39.0953 36.4048 37.3257L38.2957 35.4348C39.1874 34.5451 39.5656 33.2771 39.3069 32.0451C39.0501 30.8129 38.1962 29.8018 37.0218 29.342L31.2077 27.0629C30.1468 26.6469 28.9764 26.7325 27.9931 27.2978L24.8223 29.117C24.1972 29.4733 23.4627 29.4833 22.8537 29.1449C18.4049 26.6648 13.2377 21.4995 10.8331 17.1305C10.5107 16.5453 10.5286 15.8008 10.8789 15.1898L12.6982 12.0169C13.2655 11.0297 13.3531 9.85527 12.935 8.79635L10.6559 2.98022C10.1981 1.80782 9.18697 0.953896 7.95485 0.695141C6.72472 0.436381 5.45484 0.814572 4.56107 1.70631L2.67014 3.59724C-0.0289532 6.29634 -0.709676 10.6195 0.755312 15.7691C2.15064 20.6776 5.3513 25.8131 9.76843 30.232L9.77226 30.2294ZM4.36225 5.2849L6.25318 3.39397C6.50796 3.13719 6.83836 3.00184 7.1867 3.00184C7.28025 3.00184 7.3738 3.0118 7.46934 3.0317C7.91521 3.12525 8.26951 3.42382 8.43471 3.84782L10.7138 9.66395C10.8631 10.0441 10.8313 10.4641 10.6282 10.8224L8.80895 13.9952C8.04659 15.3249 8.01872 16.965 8.74127 18.2767C11.3767 23.0658 16.8224 28.5117 21.6913 31.2267C23.0209 31.9671 24.673 31.9512 26.0106 31.1849L29.1834 29.3656C29.5338 29.1626 29.9518 29.1307 30.3379 29.282L36.152 31.5611C36.578 31.7283 36.8745 32.0826 36.9701 32.5285C37.0636 32.9763 36.9323 33.4182 36.6078 33.7427L34.7169 35.6336C32.6548 37.6918 29.1652 38.1535 24.888 36.9413C20.3636 35.6555 15.5966 32.6698 11.4621 28.5376C3.23366 20.3149 -0.0164097 9.66407 4.36225 5.2849Z"
+                                fill="black" />
+                            <path
+                                d="M28.6464 20.3031C28.6464 20.9619 29.1818 21.4974 29.8407 21.4974C30.4995 21.4974 31.035 20.9619 31.035 20.3031C31.035 14.0508 25.9493 8.96533 19.6972 8.96533C19.0384 8.96533 18.5029 9.50078 18.5029 10.1596C18.5029 10.8185 19.0384 11.354 19.6972 11.354C24.6316 11.354 28.6464 15.3689 28.6464 20.3031Z"
+                                fill="black" />
+                            <path
+                                d="M19.6972 0.000204101C19.0384 0.000204101 18.5029 0.535651 18.5029 1.19451C18.5029 1.85338 19.0384 2.38882 19.6972 2.38882C29.5741 2.38882 37.6114 10.4261 37.6114 20.303C37.6114 20.9618 38.1468 21.4973 38.8057 21.4973C39.4645 21.4973 40 20.9618 40 20.303C40 9.10841 30.8918 0.000204101 19.6972 0.000204101Z"
+                                fill="black" />
+                        </svg>
+                    </span>
+
+                    +99365577186
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="section">
+        <div class="base-container w-container">
+            <div data-w-id="6e107250-abc3-541e-fd4b-9f9fa0c937fc" style="opacity: 1;" data-current="All"
+                class="shop-tabs w-tabs">
+                <div class="shop-tabs-menu w-tab-menu">
+                    <h6 data-tab="#All" class="sessions-tab-link w-inline-block w-tab-link tabBtn active">
+                        <div>All </div>
+                    </h6>
+                    <h6 data-tab="#tab-1" class="sessions-tab-link w-inline-block w-tab-link tabBtn">
+                        <div>New</div>
+                    </h6>
+                    <h6 data-tab="#tab-2" class="sessions-tab-link w-inline-block w-tab-link tabBtn">
+                        <div>Hair</div>
+                    </h6>
+                    <h6 data-tab="#tab-3" class="sessions-tab-link w-inline-block w-tab-link tabBtn">
+                        <div>Face</div>
+                    </h6>
+                </div>
+
+                <div class="shop-category-tabs-content w-tab-content">
+                    <div class="shop-category-tabs w-tab-pane tabItem active" id="All">
+                        <div class="shop-collection-list-wrapper w-dyn-list">
+                            <div class="shop-collection-list w-dyn-items">
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (1).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (2).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (3).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (4).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-category-tabs w-tab-pane tabItem" id="tab-1">
+                        <div class="shop-collection-list-wrapper w-dyn-list">
+                            <div class="shop-collection-list w-dyn-items">
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (1).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">2 beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (2).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (3).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (4).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-category-tabs w-tab-pane tabItem" id="tab-2">
+                        <div class="shop-collection-list-wrapper w-dyn-list">
+                            <div class="shop-collection-list w-dyn-items">
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (1).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">3 beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (2).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (3).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (4).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-category-tabs w-tab-pane tabItem" id="tab-3">
+                        <div class="shop-collection-list-wrapper w-dyn-list">
+                            <div class="shop-collection-list w-dyn-items">
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (1).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">4 beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (2).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (3).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="shop-collection-item w-dyn-item">
+                                    <div class="main-shop-list-item">
+                                        <div class="shop-links-wrapper">
+                                            <div class="shop-link-block"><img loading="lazy" alt="photo"
+                                                    src="assets/images/Items/item (4).jpg" class="shop-list-image">
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <a href="/product/makeup-brush-set" class="shop-item-link">
+                                                Makeup brush set
+                                            </a>
+                                            <div class="shop-item-short-info">Enhancing beauty to let you shine</div>
+                                            <div class="shop-item-price">$&nbsp;34.00&nbsp;USD</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="tabs.js"></script>
+</body>
+
+</html>
