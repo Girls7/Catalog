@@ -371,11 +371,11 @@ img {
 
     position: relative;
     overflow: hidden;
-    background: #f4f4f4;
 }
 
 .shop-list-image {
-    object-fit: cover;
+    object-fit: contain;
+    -o-object-fit: contain;
     width: 100%;
     height: 100%;
     transition: transform .3s;
@@ -464,7 +464,7 @@ img {
 
     .header {
         padding-top: 30px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
     }
 
     .header-brand {
@@ -494,6 +494,11 @@ img {
         width: auto;
     }
 
+    .shop-category-tabs {
+        width: 80%;
+        margin: 0 auto;
+    }
+
     .shop-collection-list {
         grid-template-columns: 1fr;
     }
@@ -501,6 +506,7 @@ img {
     .sessions-tab-link {
         text-align: center;
         padding-right: 20px;
+        font-size: 16px !important;
     }
 
     .header-top-wrapper {
@@ -509,4 +515,90 @@ img {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.progress-wrap {
+    right: 30px;
+    bottom: 30px;
+    color: white;
+    position: fixed;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: inset 0 0 0 2px white;
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 200ms linear;
+}
+
+.progress-wrap input {
+    z-index: 10001;
+}
+
+.progress-wrap input:checked+html {
+    -ms-scroll-snap-type: unset;
+    scroll-snap-type: unset;
+}
+
+.progress-wrap.active-progress {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.progress-wrap::after {
+    position: absolute;
+    content: "↑";
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    color: gray;
+    left: 0;
+    top: -2px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    transition: all 200ms linear;
+}
+
+.progress-wrap:hover::after {
+    opacity: 0;
+}
+
+.progress-wrap:hover::before {
+    opacity: 1;
+}
+
+.progress-wrap::before {
+    position: absolute;
+    content: "↑";
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    opacity: 0;
+    -webkit-text-fill-color: green;
+    left: 0;
+    top: -2px;
+    height: 46px;
+    width: 46px;
+    cursor: pointer;
+    display: block;
+    z-index: 2;
+    transition: all 200ms linear;
+}
+
+.progress-wrap svg path {
+    fill: none;
+}
+
+.progress-wrap svg.progress-circle path {
+    stroke: green;
+    stroke-width: 4;
+    box-sizing: border-box;
+    transition: all 200ms linear;
 }
