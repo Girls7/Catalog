@@ -374,7 +374,7 @@ img {
 }
 
 .shop-list-image {
-    object-fit: contain;
+    object-fit: cover;
     -o-object-fit: contain;
     width: 100%;
     height: 100%;
