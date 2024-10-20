@@ -375,7 +375,7 @@ img {
 
 .shop-list-image {
     object-fit: cover;
-    -o-object-fit: contain;
+    -o-object-fit: cover;
     width: 100%;
     height: 100%;
     transition: transform .3s;
